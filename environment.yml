@@ -1,0 +1,24 @@
+name: mmpy
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - cuda-version=12.*
+  - cupy
+  - tensorflow
+  - keras
+  - numpy
+  - scipy
+  - matplotlib
+  - h5py
+  - hdf5storage
+  - scikit-learn
+  - scikit-image
+  - umap-learn
+  - moviepy=1.0.3
+  - imageio
+  - pip:
+    - easydict
+    - -e .
