@@ -31,7 +31,7 @@ conda activate mmpy
 Optional installs afterward
 
 ```
-conda install ipython pyqt pandas
+conda install ipython pyqt pandas pytz
 ```
 
 ## Run the demo
