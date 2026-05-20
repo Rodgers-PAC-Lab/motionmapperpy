@@ -9,7 +9,7 @@ dependencies:
   - cupy
   - tensorflow
   - keras
-  - numpy
+  - numpy<2 # hidden requirement of hdfstorage
   - scipy
   - matplotlib
   - h5py
