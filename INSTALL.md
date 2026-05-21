@@ -34,6 +34,14 @@ Optional installs afterward
 conda install ipython pyqt pandas pytz
 ```
 
+## Set XLA flags
+
+Often this is necessary with conda to avoid "libdevice not found at ./libdevice.10.bc"
+
+```
+conda env config vars set XLA_FLAGS="--xla_gpu_cuda_data_dir=$CONDA_PREFIX" -n mmpy
+```
+
 ## Run the demo
 
 ```
